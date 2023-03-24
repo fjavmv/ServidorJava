@@ -7,9 +7,6 @@ import java.net.Socket;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws Exception{
-        Scanner scanner = new Scanner(System.in);
-        String dato = scanner.nextLine();
-        Servidor.lanzarServer(dato);
-
+        Servidor.lanzarServer();
     }
 }

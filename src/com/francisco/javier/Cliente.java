@@ -9,7 +9,7 @@ public class Cliente {
     private static DataInputStream entrada;
     private static DataOutputStream salida;
     static void ejecutarCliente(String msj) {
-        String ip ="172.25.13.19";
+        String ip ="192.168.0.106";
         int puerto = 8089;
         log("Conectado a traves de Socket: " + ip + " Puerto: " + puerto);
         try{
